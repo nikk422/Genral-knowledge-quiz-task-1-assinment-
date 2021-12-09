@@ -30,6 +30,9 @@ var AllQuestions=[{
   },{
     question:"Who is Big-B of Bollywood? \n1. Akshay kumar \n2. Shahrukh khan \n3. Amitabh Bachchan \n4. Dharmendra \n",
     answer:"3"
+  },{
+    question:"Who was first CDS of india? \n1. Rajnath singh \n2. Bipin Rawat \n3. Amit shah \n4. Ajit dobhal \n",
+    answer:"2"
   }];
 
 for (var i=0; i<AllQuestions.length;i++){
