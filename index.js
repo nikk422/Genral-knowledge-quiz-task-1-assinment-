@@ -18,6 +18,17 @@ function play(question,answer){
   }
 };
 
+var highScore=[{
+  'name':"prashat",
+  'scores':"5"
+},
+{
+  'name':'bipin',
+  'scores':"4"
+
+}];
+
+
 var AllQuestions=[{
   question:"who is Yuvraj sigh? \n1. Cricketer \n2. Rider \n3. reporter \n4. poilet\n",
   answer:"1"
@@ -42,3 +53,4 @@ for (var i=0; i<AllQuestions.length;i++){
 
 
 console.log(userName, "Your final score is ", score)
+console.log("highscore",highscore[0].scores)
